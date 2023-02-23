@@ -41,7 +41,7 @@
                 <ul class="nav nav-pills border-bottom my-3">
 
                     <li class="nav-item">
-                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-selected="true">
+                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="my-library">
                             <div class="navlinks ">
                                 <span class=" icomoon-my-library-24px-1 mr-1"></span>
                                 <span class="title d-none d-lg-inline-block">My Library</span>
@@ -49,7 +49,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-selected="true">
+                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="enroll">
                             <div class="navlinks ">
                                 <span class=" icomoon-stack-plus mr-1"></span>
                                 <span class="title  d-none d-lg-inline-block">Enroll</span>
@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-selected="true">
+                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="inbox">
                             <div class="navlinks ">
                                 <span class=" icomoon-mail-2 mr-1"></span>
                                 <span class="title  d-none d-lg-inline-block">Inbox</span>
@@ -65,7 +65,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-selected="true">
+                        <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="my-profile">
                             <div class="navlinks ">
                                 <span class=" icomoon-my-profile-24px-1 mr-1"></span>
                                 <span class="title  d-none d-lg-inline-block">My Profile</span>
@@ -73,7 +73,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#home_pills" class="nav-link active" data-toggle="pill" aria-selected="true">
+                        <a href="#home_pills" class="nav-link active" data-toggle="pill" aria-label="admin">
                             <div class="navlinks active">
                                 <span class=" icomoon-admin-24px-1 mr-1 active"></span>
                                 <span class="title  actives d-none d-lg-inline-block">Admin</span>
@@ -89,23 +89,23 @@
 
         <div class="row">
             <div class="col-2 col-md-2 col-sm-2">
-                <select class="form-control form-control-md select2 select2-hidden-accessible width218">
+                <select aria-label="dropbox" class="form-control form-control-md select2 select2-hidden-accessible width218">
+                <!--   <option>uCertify</option>
                   <option>uCertify</option>
-                  <option>uCertify</option>
-                  <option>uCertify</option>
+                  <option>uCertify</option> -->
                 </select><span class="select2 select2-container select2-container--default" style="width: 825.799px;"><span class="selection"><span class="select2-selection select2-selection--single" ><span class="select2-selection__rendered" title="uCertify"><span class="select2-selection__clear">×</span>uCertify</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper"></span></span>
             </div>
                 
             <div class="col-10">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-outline-secondary text-black d-flex align-items-center active"> <div class="icomoon-roster-sm d-inline-block mr-2"></div> <div class="d-none d-lg-inline-block">roster</div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black d-flex align-items-center"> <div class="icomoon-24px-project-management d-inline-block mr-2"></div> <div class="d-none d-lg-inline-block">manage <span class="dropdown-toggle pl-2"></span></div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black d-flex align-items-center"> <div class="icomoon-reports-sm d-inline-block mr-2"></div> <div class="d-none d-lg-inline-block"> Report <span class="dropdown-toggle pl-2"></span></div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black d-flex align-items-center"> <div class="icomoon-add-license-enroll-sm d-inline-block mr-2"></div> <div class="d-none d-lg-inline-block">Enroll</div></button>
+                    <button type="button" aria-label="Roster" class="btn btn-outline-secondary text-black d-flex align-items-center active"> <span class="icomoon-roster-sm d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block">roster</span></button>
+                    <button type="button" aria-label="Manage" class="btn btn-outline-secondary text-black d-flex align-items-center"> <span class="icomoon-24px-project-management d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block">manage <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Report" class="btn btn-outline-secondary text-black d-flex align-items-center"> <span class="icomoon-reports-sm d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block"> Report <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Enroll" class="btn btn-outline-secondary text-black d-flex align-items-center"> <span class="icomoon-add-license-enroll-sm d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block">Enroll</span></button>
                 </div>
                 <div class="float-right p-0">
-                    <button class="btn btn-outline-primary">LMS Configuration</button>
-                    <button class="btn custom_btn dropdown-toggle" type="button"><span class="d-inline-block font18 toggle-icon icomoon-file-download pr-1 align-middle" ></span>
+                    <button aria-label="LMS" class="btn btn-outline-primary">LMS Configuration</button>
+                    <button aria-label="Export" class="btn custom_btn dropdown-toggle" type="button"><span class="d-inline-block font18 toggle-icon icomoon-file-download pr-1 align-middle" ></span>
                     <span class="d-none d-sm-inline-block">Export</span></button>
                 </div>
             </div>
@@ -116,20 +116,21 @@
         
         <div class="row my-3 py-2">
             <div class="col-12 col-md-12 col-sm-12">
-                <button type="button" class="btn btn-outline-secondary text-black mr-1 active"> <div class="icomoon-24px-search-1 d-inline-block"></div></button>
+                <button aria-label="check" type="button" class="btn btn-outline-secondary text-black mr-1 active"> <span class="icomoon-24px-search-1 d-inline-block"></span></button>
                 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-outline-secondary text-black active"> <div class="icomoon-roster-sm d-none d-inline-block"></div> <div class="d-none d-lg-inline-block">Roster</div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black"> <div class="  icomoon-lessons d-none d-inline-block"></div> <div class="d-none d-lg-inline-block">Lessons</div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black"> <div class="icomoon-testprep-or-practice-test d-none d-inline-block"></div><div class="d-none d-lg-inline-block">Practice</div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black"> <div class="icomoon-cogs d-none d-inline-block"></div> <div class="d-none d-lg-inline-block">Prepengine <span class="dropdown-toggle pl-2"></span></div></button>
-                    <button type="button" class="btn btn-outline-secondary text-black"> <div class="icomoon-bars d-none d-inline-block"></div> <div class="d-none d-lg-inline-block">Analytics <span class="dropdown-toggle pl-2"></span></div></button>
+                    <button type="button" aria-label="Roster" class="btn btn-outline-secondary text-black active"> <span class="icomoon-roster-sm d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Roster</span></button>
+                    <button type="button" aria-label="Lesson" class="btn btn-outline-secondary text-black"> <span class="  icomoon-lessons d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Lessons</span></button>
+                    <button type="button" aria-label="Practice" class="btn btn-outline-secondary text-black"> <span class="icomoon-testprep-or-practice-test d-none d-inline-block"></span><span class="d-none d-lg-inline-block">Practice</span></button>
+                    <button type="button" aria-label="Prepengine" class="btn btn-outline-secondary text-black"> <span class="icomoon-cogs d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Prepengine <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Analytics" class="btn btn-outline-secondary text-black"> <span class="icomoon-bars d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Analytics <span class="dropdown-toggle pl-2"></span></span></button>
                 </div>
                 <div class="float-right pt-2">
                     <div class="d-inline-block mr-2">Test Mode Only</div>
                         <div class="custom-control custom-switch d-inline-block">
                             <label class="custom-control-label" for="customSwitches"></label>
-                            <input type="checkbox" class="custom-control-input" id="customSwitches">
+                            <input type="checkbox" class="custom-control-input" aria-label="checkbox" id="customSwitches">
+                            <span class="switchery switchery-small switchery-off_background"><small class="switchery-off">
                         </div>
                     </div>
                 </div>
@@ -141,7 +142,7 @@
         <table class="table table-striped responsive">
             <thead>
                 <tr>
-                    <th ><div class="py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><input type="checkbox" class="mr-1 width20 height20"/><button class="btn bg-white btn-outline-primary btn-xs"><span class="dropdown-toggle"></span></button></div></th>
+                    <th ><div class="py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><button aria-label="drop" class="btn bg-white btn-outline-primary btn-xs "><span class="dropdown-toggle"></span></button></div></th>
                     <th >Student Name<div class="small header">Tag/Status</div></th>
                     <th >Course Name<div class="small header">CRN/Course Status</div></th>
                     <th >Instructor<div class="small header">Section</div></th>
@@ -155,8 +156,20 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class=" py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><div class="form-check form-check-inline"><input type="checkbox" class="mr-1 width20 height20"/><label class="form-check-label">1</label></div></td>
-                    <td> <div class="m-2 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><img class="rounded-circle mr-2" src="https://picsum.photos/50/50" alt=""><div class="">Mark</div></div></td>
+                    <td class=" py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><div class="form-check form-check-inline"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><label class="form-check-label">1</label></div></td>
+                    <!-- <td> <div class="m-2 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><img class="rounded-circle mr-2" src="https://picsum.photos/50/50" alt=""><div class="">Mark</div></div></td> -->
+                    <td class="p-0 m-2">
+                        <!-- <div class="d-flex justify-content-start align-items-center bg-danger"> -->
+                            <!-- <div class="mx-2 width50 height50 rounded-circle bg-primary d-flex justify-content-center align-items-center">SDN</div> <span>Mark</span> -->
+                        <!-- </div> -->
+
+                        <div class="card-footer d-flex align-items-center bg-transparent pb-3 py-2">
+                            <div class="width50 height50 text-light rounded-circle bg-primary d-flex justify-content-center align-items-center px-0 overflow-hide"><img src="https://picsum.photos/50/50" alt=""></div>
+                            <div class="ps-2 ms-1 ml-2">
+                                sanjit
+                            </div>
+                        </div>
+                    </td>
                     <td class=" disabled1 pointer_event_none align-middle">APP-Training<div class="small">app-training <div class="d-flex text-success"><div class="icomoon-testprep-sm s3"></div> <div class="icomoon-24px-test s3"></div></div></div></td>
                     <td class=" disabled1 pointer_event_none align-middle"><div>Dhiroo Verma</div><div class="badge bg-primary text-light">New</div> </td>
                     <td class=" disabled1 align-middle d-flex justify-content-center align-items-center flex-column"><svg height="30" width="30" viewBox="0 0 20 20">
@@ -175,7 +188,7 @@
                     <td class=" disabled1 pointer_event_none align-middle text-secondry"><div class="text-danger">12-<span class="text-uppercase">Jan</span>-2001</div><div class="small">3.1 year</div> </td>
                     <td class="align-middle">
                         <div class="dropdown w-25">
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button aria-label="Setting" class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="icomoon-new-24px-gear-1 setting_icon"></span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
@@ -189,7 +202,8 @@
                     </td>
                 </tr>
                 <tr class="text-center">
-                    <td class=" py-3 pointer_event_none d-flex justify-content-between align-items-center"><div class="form-check form-check-inline"><input type="checkbox" class="mr-1 width20 height20"/><label class="form-check-label">2</label></div></td>
+                    <td class=" py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><div class="form-check form-check-inline"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><label class="form-check-label">2</label></div></td>
+
                     <td class="p-0 m-2">
                         <!-- <div class="d-flex justify-content-start align-items-center bg-danger"> -->
                             <!-- <div class="mx-2 width50 height50 rounded-circle bg-primary d-flex justify-content-center align-items-center">SDN</div> <span>Mark</span> -->
@@ -220,7 +234,7 @@
                     <td class=" align-middle text-secondry"><div class="text-danger">12-<span class="text-uppercase">Jan</span>-2001</div><div class="small">3.1 year</div> </td>
                     <td class=" align-middle">
                         <div class="dropdown w-25">
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button aria-label="Setting2" class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="icomoon-new-24px-gear-1 setting_icon"></span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
