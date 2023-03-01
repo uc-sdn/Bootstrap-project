@@ -25,7 +25,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="my-library">
                             <div class="navlinks ">
                                 <span class=" icomoon-my-library-24px-1 mr-1"></span>
-                                <span class="title d-none d-lg-inline-block">My Library</span>
+                                <span class="title">My Library</span>
                             </div>
                         </a>
                     </li>
@@ -33,7 +33,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="enroll">
                             <div class="navlinks ">
                                 <span class=" icomoon-stack-plus mr-1"></span>
-                                <span class="title  d-none d-lg-inline-block">Enroll</span>
+                                <span class="title ">Enroll</span>
                             </div>
                         </a>
                     </li>
@@ -41,7 +41,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="inbox">
                             <div class="navlinks ">
                                 <span class=" icomoon-mail-2 mr-1"></span>
-                                <span class="title  d-none d-lg-inline-block">Inbox</span>
+                                <span class="title ">Inbox</span>
                             </div>
                         </a>
                     </li>
@@ -49,7 +49,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="my-profile">
                             <div class="navlinks ">
                                 <span class=" icomoon-my-profile-24px-1 mr-1"></span>
-                                <span class="title  d-none d-lg-inline-block">My Profile</span>
+                                <span class="title ">My Profile</span>
                             </div>
                         </a>
                     </li>
@@ -57,7 +57,7 @@
                         <a href="#home_pills" class="nav-link active" data-toggle="pill" aria-label="admin">
                             <div class="navlinks active">
                                 <span class=" icomoon-admin-24px-1 mr-1 active"></span>
-                                <span class="title  actives d-none d-lg-inline-block">Admin</span>
+                                <span class="title  actives">Admin</span>
                             </div> 
                         </a>
                     </li>
@@ -242,29 +242,6 @@
 
     </div>
 
-   
-    
-    <script src="https://www.ucertify.com/layout/themes/bootstrap4/pe-items/lib/language.js"></script>
-    <script>
-        var markAsReview,allowEdit,feedback="",tagEdit="";
-        $(document).ready(function() {
-            $(".downArrow-c").on('click', function() {
-                if ($(this).find(".dropdown-menu").length == 0) {
-                    allowEdit = (allowEdit == undefined) ? "" : allowEdit;
-                    markAsReview = (markAsReview == undefined) ? "" : markAsReview;
-                    var c_guid = $(this).attr("guid");
-                                    feedback = '<li><a href="javascript:;" class="show_review_content dropdown-item" guid="'+c_guid+'">Feedback</a></li>';
-                                            $(this).append('<ul class="dropdown-menu dropdown-menu-right" role="menu">' + allowEdit+feedback + tagEdit+markAsReview + '</ul>');
-                    if ($(".edit_content").length > 0) {
-                        var newhref = "editor/?action=edit&content_guid=" + $(this).attr("guid"); 
-                        $(".edit_content").attr("href", newhref);
-                    }
-                }
-            });
-        });
-        </script>
-        <script src="https://www.ucertify.com/layout/themes/bootstrap4/ux/js/prepengine-footer.min.js?20230223"></script>
-        <script src="https://www.ucertify.com/layout/themes/bootstrap4/ux/js/newtheme-plugins.min.js"></script>
     
 </body>
 </html>
