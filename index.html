@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css" rel="stylesheet">
-    <link href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css" rel="stylesheet">
-    <link href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css" rel="stylesheet">
-    <link href="https://www.ucertify.com/utils/?util=icomoon" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/utils/?util=icomoon">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/css_overwrite.min.css?20221116" type="text/css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/switchery.css">
+
 
 
 
@@ -17,34 +20,12 @@
 <body>    
     
     <div class="container my-5" >
-        <!-- <div class="navbar w-50 align-bottom bg-primary " >
-                <div class="navlinks mr-3">
-                    <span class=" icomoon-my-library-24px-1 mr-1"></span>
-                    <span class="title d-inline-block">My Library</span>
-                </div>
-                <div class="navlinks mr-3">
-                    <span class=" icomoon-stack-plus mr-1"></span>
-                    <span class="title d-inline-block">Enroll</span>
-                </div>
-                <div class="navlinks mr-3">
-                    <span class=" icomoon-mail-2 mr-1"></span>
-                    <span class="title d-inline-block">Inbox</span>
-                </div>
-                <div class="navlinks mr-3">
-                    <span class=" icomoon-u mr-1"></span>
-                    <span class="title d-inline-block">My Profile</span>
-                </div>
-                <div class="navlinks mr-3 active">
-                    <span class=" icomoon-admin-24px-1 mr-1 active"></span>
-                    <span class="title d-inline-block actives">Admin</span>
-                </div> -->
                 <ul class="nav nav-pills border-bottom my-3">
-
                     <li class="nav-item">
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="my-library">
                             <div class="navlinks ">
                                 <span class=" icomoon-my-library-24px-1 mr-1"></span>
-                                <span class="title d-none d-lg-inline-block">My Library</span>
+                                <span class="title mx-2">My Library</span>
                             </div>
                         </a>
                     </li>
@@ -52,7 +33,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="enroll">
                             <div class="navlinks ">
                                 <span class=" icomoon-stack-plus mr-1"></span>
-                                <span class="title  d-none d-lg-inline-block">Enroll</span>
+                                <span class="title mx-2 ">Enroll</span>
                             </div>
                         </a>
                     </li>
@@ -60,7 +41,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="inbox">
                             <div class="navlinks ">
                                 <span class=" icomoon-mail-2 mr-1"></span>
-                                <span class="title  d-none d-lg-inline-block">Inbox</span>
+                                <span class="title mx-2 ">Inbox</span>
                             </div>
                         </a>
                     </li>
@@ -68,7 +49,7 @@
                         <a href="#home_pills" class="nav-link" data-toggle="pill" aria-label="my-profile">
                             <div class="navlinks ">
                                 <span class=" icomoon-my-profile-24px-1 mr-1"></span>
-                                <span class="title  d-none d-lg-inline-block">My Profile</span>
+                                <span class="title mx-2 ">My Profile</span>
                             </div>
                         </a>
                     </li>
@@ -76,7 +57,7 @@
                         <a href="#home_pills" class="nav-link active" data-toggle="pill" aria-label="admin">
                             <div class="navlinks active">
                                 <span class=" icomoon-admin-24px-1 mr-1 active"></span>
-                                <span class="title  actives d-none d-lg-inline-block">Admin</span>
+                                <span class="title mx-2  actives">Admin</span>
                             </div> 
                         </a>
                     </li>
@@ -88,71 +69,78 @@
         <!-- section second -->
 
         <div class="row">
-            <div class="col-2 col-md-2 col-sm-2">
-                <select aria-label="dropbox" class="form-control form-control-md select2 select2-hidden-accessible width218">
+            <div class="col-2 col-md-3 col-xl-2">
+                <select aria-label="dropbox" class="form-control form-control-md select2 select2-hidden-accessible width300">
                 <!--   <option>uCertify</option>
                   <option>uCertify</option>
                   <option>uCertify</option> -->
                 </select><span class="select2 select2-container select2-container--default" style="width: 825.799px;"><span class="selection"><span class="select2-selection select2-selection--single" ><span class="select2-selection__rendered" title="uCertify"><span class="select2-selection__clear">×</span>uCertify</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper"></span></span>
             </div>
                 
-            <div class="col-10">
+            <div class="col-10 col-md-9 col-xl-10">
                 <div class="btn-group">
-                    <button type="button" aria-label="Roster" class="btn btn-outline-secondary text-black d-flex align-items-center active"> <span class="icomoon-roster-sm d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block">roster</span></button>
-                    <button type="button" aria-label="Manage" class="btn btn-outline-secondary text-black d-flex align-items-center"> <span class="icomoon-24px-project-management d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block">manage <span class="dropdown-toggle pl-2"></span></span></button>
-                    <button type="button" aria-label="Report" class="btn btn-outline-secondary text-black d-flex align-items-center"> <span class="icomoon-reports-sm d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block"> Report <span class="dropdown-toggle pl-2"></span></span></button>
-                    <button type="button" aria-label="Enroll" class="btn btn-outline-secondary text-black d-flex align-items-center"> <span class="icomoon-add-license-enroll-sm d-inline-block mr-2"></span> <span class="d-none d-lg-inline-block">Enroll</span></button>
-                </div>
-                <div class="float-right p-0">
-                    <button aria-label="LMS" class="btn btn-outline-primary">LMS Configuration</button>
-                    <button aria-label="Export" class="btn custom_btn dropdown-toggle" type="button"><span class="d-inline-block font18 toggle-icon icomoon-file-download pr-1 align-middle" ></span>
-                    <span class="d-none d-sm-inline-block">Export</span></button>
+                   <a href=""><button type="button" aria-label="Roster" class="btn btn-light active"> <span class="position-relative icomoon-roster-sm d-inline-block mr-2"></span> <span class="">roster</span></button></a>
+                    <button type="button" aria-label="Manage" class="btn btn-light"> <span class="position-relative icomoon-24px-project-management d-inline-block mr-2"></span> <span class="">manage <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Report" class="btn btn-light"> <span class="position-relative icomoon-reports-sm d-inline-block mr-2"></span> <span class=""> Report <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Enroll" class="btn btn-light"> <span class="position-relative icomoon-add-license-enroll-sm d-inline-block mr-2"></span> <span class="">Enroll</span></button>
                 </div>
             </div>
-                
+            
+            
+        </div>
+        <div class="row">
+            <div class="col-12 pt-3">
+                <button aria-label="LMS" class="btn btn-outline-primary">LMS Configuration</button>
+                <button aria-label="Export" class="btn custom_btn dropdown-toggle" type="button"><span class="d-inline-block font18 toggle-icon icomoon-file-download pr-1 align-middle" ></span>
+                <span class="d-none d-sm-inline-block">Export</span></button>
+            </div>
+            
         </div>
         
         <!-- third section -->
         
         <div class="row my-3 py-2">
             <div class="col-12 col-md-12 col-sm-12">
-                <button aria-label="check" type="button" class="btn btn-outline-secondary text-black mr-1 active"> <span class="icomoon-24px-search-1 d-inline-block"></span></button>
+                <button aria-label="check" type="button" class="btn btn-light text-black mr-1 active"> <span class="icomoon-24px-search-1 d-inline-block"></span></button>
                 
                 <div class="btn-group">
-                    <button type="button" aria-label="Roster" class="btn btn-outline-secondary text-black active"> <span class="icomoon-roster-sm d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Roster</span></button>
-                    <button type="button" aria-label="Lesson" class="btn btn-outline-secondary text-black"> <span class="  icomoon-lessons d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Lessons</span></button>
-                    <button type="button" aria-label="Practice" class="btn btn-outline-secondary text-black"> <span class="icomoon-testprep-or-practice-test d-none d-inline-block"></span><span class="d-none d-lg-inline-block">Practice</span></button>
-                    <button type="button" aria-label="Prepengine" class="btn btn-outline-secondary text-black"> <span class="icomoon-cogs d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Prepengine <span class="dropdown-toggle pl-2"></span></span></button>
-                    <button type="button" aria-label="Analytics" class="btn btn-outline-secondary text-black"> <span class="icomoon-bars d-none d-inline-block"></span> <span class="d-none d-lg-inline-block">Analytics <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Roster" class="btn btn-light text-black active"> <span class="icomoon-roster-sm d-none d-inline-block"></span> <span class="">Roster</span></button>
+                    <button type="button" aria-label="Lesson" class="btn btn-light text-black"> <span class="  icomoon-lessons d-none d-inline-block"></span> <span class="">Lessons</span></button>
+                    <button type="button" aria-label="Practice" class="btn btn-light text-black"> <span class="icomoon-testprep-or-practice-test d-none d-inline-block"></span><span class="">Practice</span></button>
+                    <button type="button" aria-label="Prepengine" class="btn btn-light text-black"> <span class="icomoon-cogs d-none d-inline-block"></span> <span class="">Prepengine <span class="dropdown-toggle pl-2"></span></span></button>
+                    <button type="button" aria-label="Analytics" class="btn btn-light text-black"> <span class="icomoon-bars d-none d-inline-block"></span> <span class="">Analytics <span class="dropdown-toggle pl-2"></span></span></button>
                 </div>
-                <div class="float-right pt-2">
-                    <div class="d-inline-block mr-2">Test Mode Only</div>
-                        <div class="custom-control custom-switch d-inline-block">
-                            <label class="custom-control-label" for="customSwitches"></label>
-                            <input type="checkbox" class="custom-control-input" aria-label="checkbox" id="customSwitches">
-                            <span class="switchery switchery-small switchery-off_background"><small class="switchery-off">
-                        </div>
+            </div>
+        <div class="row my-3">
+            <div class="float-right d-flex ml-3 col-12">
+                <label class="ios-switch-label text-left mb-0 new_toggle_switch mr-2 " for="customSwitches">Test Mode Only
+                    
+                </label>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input font15" id="customSwitches">
+                        <label class="custom-control-label" for="customSwitches"></label>
                     </div>
-                </div>
+            </div>
         </div>
 
         <!-- table of content -->
 
-        <div class="table-responsive h-auto">
-        <table class="table table-striped responsive">
+        <div class="table-responsive h-auto mx-3">
+        <table class="table table-striped">
             <thead>
                 <tr>
-                    <th ><div class="py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><button aria-label="drop" class="btn bg-white btn-outline-primary btn-xs "><span class="dropdown-toggle"></span></button></div></th>
-                    <th >Student Name<div class="small header">Tag/Status</div></th>
-                    <th >Course Name<div class="small header">CRN/Course Status</div></th>
-                    <th >Instructor<div class="small header">Section</div></th>
-                    <th >Readiness<div class="small header"></div></th>
-                    <th >Start<div class="small header">Time Passed</div></th>
-                    <th >Target<div class="small header">Time Needed</div></th>
-                    <th >Estimated<div class="small header">Time Required</div></th>
-                    <th >Last Login<div class="small header">Time Passed</div></th>
-                    <th >Actions</th>
+                    <th class="min_wid_100"><div class="py-3 d-flex justify-content-center align-items-center"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><button aria-label="drop" class="btn bg-white btn-outline-primary btn-xs "><span class="dropdown-toggle"></span></button></div></th>
+                    <th class="min_wid_100"><span class="h5">Student Name</span><div class="small header">Tag/Status</div></th>
+                    <th class="min_wid_100"><span class="h5">Course Name</span><div class="small header">CRN/Course Status</div></th>
+                    <th class="min_wid_100"><span class="h5">Instructor</span><div class="small header">Section</div></th>
+                    <th class="min_wid_100"><span class="h5">Readiness</span><div class="small header"></div></th>
+                    <th class="min_wid_100"><span class="h5">Start</span><div class="small header">Time Passed</div></th>
+                    <th class="min_wid_100"><span class="h5">Target</span><div class="small header">Time Needed</div></th>
+                    <th class="min_wid_100"><span class="h5">Estimated</span><div class="small">Time Required <span class="icomoon-arrow-down"></span></div></th>
+                    <th class="min_wid_100"><span class="h5">Last Login</span><div class="small header">Time Passed</div></th>
+                    <th><span class="h5">Actions</span></th>
                 </tr>
+                
             </thead>
             <tbody>
                 <tr>
@@ -170,7 +158,7 @@
                             </div>
                         </div>
                     </td>
-                    <td class=" disabled1 pointer_event_none align-middle">APP-Training<div class="small">app-training <div class="d-flex text-success"><div class="icomoon-testprep-sm s3"></div> <div class="icomoon-24px-test s3"></div></div></div></td>
+                    <td class=" disabled1 pointer_event_none align-middle"><span class="h5">APP-Training</span><div class="small">app-training <div class="d-flex text-success"><div class="icomoon-testprep-sm s3"></div> <div class="icomoon-24px-test s3"></div></div></div></td>
                     <td class=" disabled1 pointer_event_none align-middle"><div>Dhiroo Verma</div><div class="badge bg-primary text-light">New</div> </td>
                     <td class=" disabled1 align-middle d-flex justify-content-center align-items-center flex-column"><svg height="30" width="30" viewBox="0 0 20 20">
                         <circle r="10" cx="10" cy="10" fill="white" />
@@ -202,7 +190,7 @@
                     </td>
                 </tr>
                 <tr class="text-center">
-                    <td class=" py-3 disabled1 pointer_event_none d-flex justify-content-center align-items-center"><div class="form-check form-check-inline"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><label class="form-check-label">2</label></div></td>
+                    <td class=" py-3 d-flex justify-content-center align-items-center"><div class="form-check form-check-inline"><input aria-label="checkbox" type="checkbox" class="mr-1 width20 height20"><label class="form-check-label">2</label></div></td>
 
                     <td class="p-0 m-2">
                         <!-- <div class="d-flex justify-content-start align-items-center bg-danger"> -->
@@ -210,15 +198,15 @@
                         <!-- </div> -->
 
                         <div class="card-footer d-flex align-items-center bg-transparent pb-3 py-2">
-                            <div class="width50 height50 text-light rounded-circle bg-primary d-flex justify-content-center align-items-center px-0">SD</div>
+                            <div class="width50 height50 text-light rounded-circle bg-primary d-flex justify-content-center align-items-center px-0 h4">SD</div>
                             <div class="ps-2 ms-1 ml-2">
                                 sanjit
                             </div>
                         </div>
                     </td>
-                    <td class=" align-middle">APP-Training<div class="small">app-training <div class="d-flex text-success"><div class="icomoon-testprep-sm s3"></div> <div class="icomoon-24px-test s3"></div></div></div></td>
+                    <td class=" align-middle"><span class="h5">APP-Training</span><div class="small">app-training <div class="d-flex text-success"><div class="icomoon-testprep-sm s3"></div> <div class="icomoon-24px-test s3"></div></div></div></td>
                     <td class=" align-middle"><div>Dhiroo Verma</div><div class="badge bg-primary text-light">New</div> </td>
-                    <td class=" align-middle d-flex justify-content-center align-items-center flex-column"><svg height="30" width="30" viewBox="0 0 20 20">
+                    <td class=" align-middle d-flex justify-content-center align-items-center flex-column pt-2"><svg height="30" width="30" viewBox="0 0 20 20">
                         <circle r="10" cx="10" cy="10" fill="white" />
                         <circle r="5" cx="10" cy="10" fill="transparent"
                                 stroke="green"
@@ -253,7 +241,30 @@
     </div>
 
     </div>
+
+   
     
+    <script src="https://www.ucertify.com/layout/themes/bootstrap4/pe-items/lib/language.js"></script>
+    <script>
+        var markAsReview,allowEdit,feedback="",tagEdit="";
+        $(document).ready(function() {
+            $(".downArrow-c").on('click', function() {
+                if ($(this).find(".dropdown-menu").length == 0) {
+                    allowEdit = (allowEdit == undefined) ? "" : allowEdit;
+                    markAsReview = (markAsReview == undefined) ? "" : markAsReview;
+                    var c_guid = $(this).attr("guid");
+                                    feedback = '<li><a href="javascript:;" class="show_review_content dropdown-item" guid="'+c_guid+'">Feedback</a></li>';
+                                            $(this).append('<ul class="dropdown-menu dropdown-menu-right" role="menu">' + allowEdit+feedback + tagEdit+markAsReview + '</ul>');
+                    if ($(".edit_content").length > 0) {
+                        var newhref = "editor/?action=edit&content_guid=" + $(this).attr("guid"); 
+                        $(".edit_content").attr("href", newhref);
+                    }
+                }
+            });
+        });
+        </script>
+        <script src="https://www.ucertify.com/layout/themes/bootstrap4/ux/js/prepengine-footer.min.js?20230223"></script>
+        <script src="https://www.ucertify.com/layout/themes/bootstrap4/ux/js/newtheme-plugins.min.js"></script>
     
 </body>
 </html>
